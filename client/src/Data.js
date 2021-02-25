@@ -14,6 +14,7 @@ let Data = () => {
   return (
     <div>
       <h1>Hello From Frontend</h1>
+      <h1>New Feature</h1>
       <h1>{res}</h1>
     </div>
   );
