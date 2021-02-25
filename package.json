@@ -1,0 +1,27 @@
+{
+  "name": "prod-react-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "start":"node index.js",
+    "client:build":"cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bansal-Deepak/prod-node-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bansal-Deepak/prod-node-react/issues"
+  },
+  "homepage": "https://github.com/Bansal-Deepak/prod-node-react#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
